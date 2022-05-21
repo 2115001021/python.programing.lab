@@ -1,0 +1,14 @@
+import numpy as np
+row = int(input('enter the row of array:'))
+colomn = int(input('enter the colomn of array:'))
+mat1 = []
+print('enter the element of first array :')
+for i in range (row):
+    ele = list(map(int, input().split()))
+    mat1.append(ele)
+mat1 = np.array(mat1)
+print('original array:')
+print(mat1)
+mat1 = np.transpose(mat1)
+print('trasposed array:')
+print(mat1)
