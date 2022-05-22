@@ -1,0 +1,5 @@
+num = int(input('enter any integer number :'))
+if num % 2:
+    print(f'the number {num} is odd')
+else:
+    print(f'the number {num} is even')
