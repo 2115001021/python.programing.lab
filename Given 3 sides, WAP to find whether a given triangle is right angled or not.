@@ -1,0 +1,8 @@
+x = eval(input('enter the length of first side :'))
+y = eval(input('enter the length of second side :'))
+z = eval(input('enter the length of third side :'))
+if x**2 == (y**2)+(z**2) or y**2 == (z**2)+(x**2) or z**2 == (x**2)+(y**2):
+    print('the given sides are of right angle triangle')
+else:
+    print('the given sides are not side of right angle triangle ')
+    
