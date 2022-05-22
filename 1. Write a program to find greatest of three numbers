@@ -1,0 +1,10 @@
+a = eval(input('enter the first number :'))
+b = eval(input('enter the second number :'))
+c = eval(input('enter the third number :'))
+if a>b and a>c:
+    greater = a
+elif b>c and b>a:
+    greater = b
+else:
+    greater = c
+print(f'the greater number from {a},{b} and {c} is :',greater)    
