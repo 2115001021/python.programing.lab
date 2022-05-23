@@ -1,0 +1,6 @@
+f = open('sample.txt','r')
+n = int(input('enter the number of line you want to print'))
+for i in range (n):
+	data = f.readline()
+	print(data)
+f.close()
