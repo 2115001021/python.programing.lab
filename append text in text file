@@ -1,0 +1,4 @@
+f = open('sample.txt','a')
+b = f.write('good day')
+print(b)#give the number of character you append in file
+f.close()
